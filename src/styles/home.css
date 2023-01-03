@@ -1,0 +1,24 @@
+home-img{
+    position: absolute;
+left: 3.05%;
+right: 4.54%;
+top: 9.85%;
+bottom: 0%;
+
+background: url('img1.jpg');
+}
+home-qoute{
+    position: absolute;
+width: 441px;
+height: 369px;
+left: 965px;
+top: 237px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+border: 1px solid #000000;
+}
