@@ -1,0 +1,132 @@
+.top-left{
+    position: absolute;
+width: 474px;
+height: 306px;
+left: 61px;
+top: 158px;
+
+background: url(batch_1.jpg);
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background-size: cover;
+}
+.txt-tl{
+    position: absolute;
+    width: 471px;
+    height: 341px;
+    left: 5px;
+    top: 110px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #F1EAEA;
+
+}
+.top-right{
+    position: absolute;
+width: 494px;
+height: 306px;
+left: 671px;
+top: 158px;
+
+background: url(batch_2.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+}
+.txt-tr{
+    position: absolute;
+width: 488px;
+height: 341px;
+left: 30px;
+top: 110px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 39px;
+text-align: center;
+
+color: #F1EAEA;
+
+}
+.bottom-left{
+    position: absolute;
+width: 474px;
+height: 331px;
+left: 61px;
+top: 590px;
+
+background: url(batch_3.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    background-size: cover;
+}
+.txt-bl{
+    position: absolute;
+    width: 417px;
+    height: 430px;
+    left: 5px;
+    top: 110px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.bottom-right{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 494px;
+    height: 316px;
+    left: 671px;
+    top: 590px;
+    
+    background: url(batch_4.jpg);
+    border: 1px solid #6E7675;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+}
+.txt-br{
+    position: absolute;
+    width: 451px;
+    height: 370px;
+    left: 30px;
+    top: 110px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #FFFCFC;
+
+}
+.batch-time{
+    position: absolute;
+width: 528px;
+height: 48px;
+left: 302px;
+top: 503px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}

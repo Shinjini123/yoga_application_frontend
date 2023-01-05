@@ -2,13 +2,14 @@ import Navbar from './components/navbar'
 import Home from './components/home'
 import Batch from './components/batch'
 import Contact from './components/contact'
-import Signup from './components/signup'
+import Signup from './components/Signup'
 import React from 'react'
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 
 function App() {
@@ -16,19 +17,18 @@ function App() {
     <>
     <Router>
       <Navbar/>
-      
       <Switch>
-      <Route path="/home">
-            <Home />
+      <Route exact path="/">
+            <Home/>
           </Route>
           <Route exact path="/batch">
-            <Batch />
+            <Batch/>
           </Route>
           <Route exact path="/contact">
-            <Contact />
+            <Contact/>
           </Route>
           <Route exact path="/signup">
-            <Signup />
+            <Signup/>
           </Route>
           </Switch>
         </Router>

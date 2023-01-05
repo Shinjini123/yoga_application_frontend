@@ -1,24 +1,25 @@
-home-img{
+.hero-img{
     position: absolute;
 left: 3.05%;
 right: 4.54%;
-top: 9.85%;
-bottom: 0%;
+top: 16.25%;
+bottom: -20%;
 
 background: url('img1.jpg');
-}
-home-qoute{
+background-size: cover;
+  }
+  .qoute{
     position: absolute;
-width: 441px;
+width: 400px;
 height: 369px;
-left: 965px;
-top: 237px;
+left: 650px;
+top: 95px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 48px;
-
+color: antiquewhite;
 border: 1px solid #000000;
-}
+  }

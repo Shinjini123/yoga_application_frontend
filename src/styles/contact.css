@@ -1,0 +1,54 @@
+.contact{
+    position: absolute;
+    width: 667px;
+    height: 84px;
+    left: 397px;
+    top: 116px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+.left-block{
+    position: absolute;
+width: 372px;
+height: 334px;
+left: 117px;
+top: 371px;
+
+background: #050505;
+
+background: #050505;
+}
+.lft-text{
+    position: absolute;
+width: 386px;
+height: 302px;
+left: 250px;
+top: 471px;
+
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 69px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+}
+.right-block{
+    position: absolute;
+    width: 542px;
+    height: 738px;
+    left: 694px;
+    top: 211px;
+    
+    background: #414140;
+}
